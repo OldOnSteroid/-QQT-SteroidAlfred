@@ -1,5 +1,15 @@
 # Alfred the Butler — v1.1.0
 
+## Installation
+
+1. Download `SteroidAlfredV2.pack`
+2. Place it directly in your `qqt/scripts/` folder
+3. Do **not** put it inside a subfolder — it must sit at the root of `scripts/`
+
+Alfred will appear in the QQT plugin list on next inject.
+
+---
+
 Alfred handles all town management automatically: selling, salvaging, stashing, repairing, restocking, gambling, and teleporting back out. External farming scripts integrate with Alfred via a simple one-call API.
 
 ---
