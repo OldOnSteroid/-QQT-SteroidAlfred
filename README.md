@@ -1,12 +1,14 @@
-# Alfred the Butler — v1.1.0
+# Alfred the Butler — v1.1.1
 
 ## Installation
 
-1. Download `SteroidAlfredV2.pack`
+1. Download `SteroidAlfredV2-1.1.1.pack` from the [latest release](https://github.com/OldOnSteroid/-QQT-SteroidAlfred/releases/latest)
 2. Place it directly in your `qqt/scripts/` folder
 3. Do **not** put it inside a subfolder — it must sit at the root of `scripts/`
 
 Alfred will appear in the QQT plugin list on next inject.
+
+> **First load notice:** On the very first load (and whenever Alfred's item data is updated), there will be a **3–5 second delay** at startup while Alfred downloads its affix/item database in the background. This only happens once — all subsequent loads are instant. An internet connection is required for this one-time download.
 
 ---
 
@@ -152,6 +154,11 @@ Alfred handles seals and charms at the Occultist separately from regular salvage
 ---
 
 ## Changelog
+
+### v1.1.1
+- **Affix data** now auto-downloads from GitHub on first load — no manual file placement needed
+- **Auto-updates** when item data changes, triggered silently on next load
+- **Smaller pack size**, improved startup performance
 
 ### v1.1.0
 - **Gambling** — full obol-spending loop with automatic inventory management mid-cycle
