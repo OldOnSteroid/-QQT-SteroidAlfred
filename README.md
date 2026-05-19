@@ -8,7 +8,7 @@
 
 Alfred will appear in the QQT plugin list on next inject.
 
-> **First load notice:** On the very first load (and whenever Alfred's item data is updated), there will be a **3–5 second delay** at startup while Alfred downloads its affix/item database in the background. This only happens once — all subsequent loads are instant. An internet connection is required for this one-time download.
+> **First load notice:** On the very first load (and whenever Alfred's item data is updated), there will be a **3–5 second delay** at startup while Alfred downloads its affix/item database in the background. This only happens once - all subsequent loads are instant. An internet connection is required for this one-time download.
 
 ---
 
